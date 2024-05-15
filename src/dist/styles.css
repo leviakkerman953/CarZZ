@@ -608,8 +608,8 @@ body {
 }
 
 .active-modal {
-  opacity: 1;
-  display: flex;
+  opacity: 1 !important;
+  display: flex !important;
 }
 
 .modal-overlay {
