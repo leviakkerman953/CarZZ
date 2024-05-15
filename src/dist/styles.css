@@ -16,9 +16,45 @@ body {
 }
 
 .container {
-  max-width: 133rem !important;
-  margin: 0 auto !important;
-  padding: 0 2.5rem !important;
+  max-width: 133rem;
+  margin: 0 auto;
+  padding: 0 2.5rem;
+}
+
+.sign-in-form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 1.5rem;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-input {
+  padding: 1.5rem 2rem;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  border-width: 0;
+  background-color: #f8f8f8;
+}
+
+.form-button {
+  padding: 1.5rem 2rem;
+  background-color: #ff4d30;
+  border-radius: 5px;
+  border-width: 0;
+  color: white;
+}
+
+.form-switch {
+  padding: 1.5rem 2rem;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  border-width: 0;
 }
 
 /* Firefox */
@@ -67,10 +103,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 2.7rem 2rem;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
   background-color: transparent;
   z-index: 99999;
   margin: 0 auto;
@@ -576,8 +608,8 @@ body {
 }
 
 .active-modal {
-  opacity: 1 !important;
-  display: flex !important;
+  opacity: 1;
+  display: flex;
 }
 
 .modal-overlay {
@@ -802,7 +834,7 @@ body {
 }
 
 .info-form__1col {
-  grid-template-columns: 1fr !important;
+  grid-template-columns: 1fr;
 }
 
 .info-form__2col,
@@ -1137,7 +1169,7 @@ body {
 }
 
 .colored-button {
-  background-color: #ff4d30 !important;
+  background-color: #ff4d30;
   color: white;
 }
 

@@ -181,8 +181,8 @@
 // modal & overlay
 
 .active-modal {
-  opacity: 1 !important;
-  display: flex !important;
+  opacity: 1;
+  display: flex;
 }
 
 .modal-overlay {
@@ -396,7 +396,7 @@
   }
 
   &__1col {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr;
   }
 
   &__2col,

@@ -19,9 +19,15 @@ body {
 }
 
 .container {
-  max-width: 133rem !important;
-  margin: 0 auto !important;
-  padding: 0 2.5rem !important;
+  max-width: 133rem;
+  margin: 0 auto;
+  padding: 0 2.5rem;
+}
+
+.aesonhusenaohua {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 // scroll bar ------
